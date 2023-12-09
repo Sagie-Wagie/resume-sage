@@ -56,7 +56,6 @@ header {
 .leftcolumn {
   float: left;
   width: 20%;
-  height: 100%;
 }
 .rightcolumn {
   float:left;
@@ -97,6 +96,36 @@ ul.char {
   color: black;
   display:flex;
   justify-content:center;
+}
+
+button {
+  font-size: medium;
+  width: 75%;
+  height: 50px;
+  display: inline-block;
+  align-content: center;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  outline: none;
+  background-color: #e3f1fa;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #546a77;
+  cursor: pointer;
+  margin: 10px 0 10px 40px;
+}
+button:hover {
+  background-color: #c0dff1;
+}
+button:active {
+  background-color: #a49edb;
+  box-shadow: 0 5px #446070;
+  transform: translateY(4px);
+}
+.even {
+  font-weight: bold;
+  color:darkgreen;
 }
 #text {
   text-align: center;
@@ -155,6 +184,11 @@ margin: 5px 200px;
   text-align: center;
   padding: 40px;
   height: 90px;
+}
+.java {
+  display: flex;
+  
+
 }
 .footer {
   padding:20px;
