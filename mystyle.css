@@ -1,0 +1,164 @@
+html {
+  height:100%;
+}
+body {
+  background-color: #90a58a80;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  font-size: auto;
+  text-align:center
+}
+h2 {
+  font-size: auto;
+  text-align: left;
+  Margin-left: 1%;
+  padding-top: 20px;
+}
+h3 {
+  font-size: auto;
+  margin-left: 20px;
+}
+header {
+  width: 100%;
+  height:125px;
+  background-image: url("green-plant.jpg");
+  display: flex;
+}
+.name {
+  color: white;
+  vertical-align: middle;
+  justify-content: left;
+  align-items: center;
+  font-size:30pt;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+.navbar {
+  position: absolute;
+  overflow: hidden;
+  right: 0;
+  width: auto;
+  text-align: center;
+  top:0;
+  padding: 10px 45px;
+  margin-top: 90px;
+  margin-right: 10px;
+  background-color:hsla(0,0%,100%,75%);
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin:0;
+  padding: 15px 25px;
+}
+.leftcolumn {
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+.rightcolumn {
+  float:left;
+  width:80%;
+}
+.leftcard {
+  background-color: lavenderblush;
+  padding: 20px;
+  margin: 20px 10px 20px 10px;
+  border-radius: 30px;
+}
+.rightcard {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 10px 20px 10px;
+  border-radius: 30px;
+}
+.row :after {
+  content:"";
+  display: table;
+  clear:both;
+}
+.about {
+margin-left: 20px;
+}
+ul.tech {
+  list-style-type: circle;
+  align-items: center;
+  margin-left: 20px;
+}
+ul.char {
+  list-style-type: circle;
+  align-items: center;
+  margin-left: 20px;
+}
+#email {
+  text-decoration: none;
+  color: black;
+  display:flex;
+  justify-content:center;
+}
+#text {
+  text-align: center;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px
+}
+.polaroid {
+  background-color: white;
+  padding: 15px 20px 25px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-right: 45px;
+  display: inline-block;
+}
+.container {
+  text-align: center;
+  width: auto;
+  padding-top: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+.exp {
+margin: 5px 200px;
+}
+.dance, .hockey{
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 50px;
+  background-color:whitesmoke;
+}
+.dance td, .hockey td {
+  border: 1px solid black;
+  width: 290px;
+  overflow: hidden;
+  padding: 10px 20px;
+}
+.dance th, .hockey th {
+  border: 1px solid black;
+  overflow: hidden;
+  padding: 10px 20px;
+}
+.company {
+  font-weight: bold;
+}
+.job {
+  text-align: center;
+  border-right: 0px;
+}
+.date {
+  text-align: right;
+}
+.task {
+  text-align: center;
+  padding: 40px;
+  height: 90px;
+}
+.footer {
+  padding:20px;
+  text-align:center;
+  background:#ddd;
+  margin-top: 20px;
+}
